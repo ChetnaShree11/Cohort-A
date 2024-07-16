@@ -1,0 +1,22 @@
+Syllabus: [DSA with C++]
+    C++ Basics
+    Variables, Data Types & operators
+    Input/Output in C++
+    Flow control & looping
+    Array & strings
+    Pointer, reference & functions
+    Structure, union & enum
+    Basic OOPS concept - Encapsulation
+    Constructor & Destructor
+    Templates & STL
+    Advanced concepts of Lambdas
+    Intro. to Data Structures
+    Algorithm & analysis
+    Built-in Data Structures
+    Sorting & searching
+
+
+Storage classees: static, auto, extern, register
+
+cout : character output stream
+cin : character inputstream

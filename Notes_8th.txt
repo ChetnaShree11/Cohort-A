@@ -1,0 +1,151 @@
+Return type of printf
+    Returns no. of characters i.e int.
+Return type of scanf
+Parameters that can be passed in switch case
+Difference b/w for, while and do while. 
+    For and while - entry control
+        For is used when no. of iterations is given and while when not given.
+    Do while - exit control
+Types of relational operators
+    6 : >, <, >=, <=, ==, !=
+Difference b/w logical and bitwie operators
+    Logical operator has boolean return type 
+    Bitwise operator has
+
+
+system.out.println : system is the class, out is the object, println is the method
+Function and method: Method is a function written inside a class.
+
+Q) x=~5   -6 (increase by 1 and change sign)
+    ~10   -11
+    ~99   -100
+    ~(-5)   4 (decrease by 1 and change sign)
+
+5>>1 (Right shift) [value / 2 ^ no. of bits]
+    2
+5>>2
+    1
+
+5<<1 (Left shift) [value * 2 ^ no. of bits]
+    10
+
+Binary conversion:
+    67:
+        128  64  32  16  8  4  2  1
+             1    0   0  0  0  1  1
+
+
+Operators:
+    Division Operator (/)
+        Depends on sign of both Nominator and  Denominator
+        5/2 = 2 [int/int = int]
+        5.0/2 = 2.5
+        5/2.0 = 2.5
+        5.0/5.0 = 2.5
+
+        6/-5 = -1
+        -6/5 = -1
+        -6/-5 = 1
+
+    Mod operator (%)
+        Always depend on sign of Nominator
+        6%5   1
+        -6%5 -1
+        6%-5  1
+        -6%-5 -1
+
+    (=)
+    We cannot use multiple variables on LHS
+        d=c+2=b+1=a [Cant e compiled]
+
+        d=2>3>1
+            1>1
+             0
+
+        d=a<b<c-1
+            0
+
+a = 012 [Octal]
+b = 0x12 [Hexadecimal]
+
+Octal to decimal conversion
+    a = 012 [*8^0,1,...]
+
+!10 = 0
+~10 = -11
+
+*)printf("%d", (10++)) = Error [Constant value cannot be incremented]
+
+var=- -10  => 10
+var=+ +10  => 10
+
+sizeof() is an operator in C.
+    if we dont define typeof float, by default double(8)
+    sizeof(125.50) = 8
+    int = float = 4
+    sizeof(65) = 4
+    short int i = 4;
+    char j = 'A'
+        sizeof(i+j)= 4 (Cuz int cannot be converted into short bt short can be converted into int!)
+
+Difference b/t short and short int:
+    Is short primitive- No, short is not a type of data.
+
+-100; -> will not cause error anywhere in code [Constant and ;].
+
+Switch case:
+    Cases cannot be duplicate.
+    Expressions allowed
+    Only int and char allowed for cases and switch Expressions
+    Default can be anywhere but wil be evaluated at last
+    Logical operators not used in cases(&&, ||, !, ^) 
+
+*In for loop we can have multipal variables and conditions but it depends on last one due to comma operator which retorns the last value.
+
+*m=5
+int x = printf("%d ",m);
+printf(x);
+    5 3
+printf("%d"); 
+    Garbage values
+printf("%d",a,b) [No error]
+
+char s[]="he",t[]="he"
+    but s!=t [Becoz array name contains the adress of first element of array].
+
+
+There are 3 ways to write C++ code:
+    Procedural
+
+    Object based
+        int main(){
+            code
+        }
+
+    *Object oriented based [We will study this]
+        class A{
+
+        }
+        int main()
+        {
+
+        }
+   
+cout is an object of ostream class
+    << is insertion operator & is used with cout
+
+cin is an object of istream class
+    << is extraction operator
+
+class is a container that contains variables and methods
+ 
+Modifiers
+    Public, private 
+    By default private
+
+Encapsulation : Binding of data in single unit
+
+use getline() to get content after space.
+c.ignore() to remove defauilt next line char.[when calling string after integer]
+
+
