@@ -1,0 +1,18 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+int main()
+{
+    vector<int> numbers = {5,3,8,1,4};
+    sort( numbers.begin(), numbers.end(), [](int a, int b){ return a%2==0;} );
+    cout<<"Sorted numbers: ";
+    for(int num: numbers)
+    {
+        cout<<num<<" ";
+    }
+    cout<<endl;
+
+    return 0;
+}
