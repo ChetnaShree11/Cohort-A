@@ -1,0 +1,55 @@
+Containers:
+    Sequence container
+    Associative container
+    ______ container
+
+Lambda expression:
+    Way to define anonymous function objects, which are useful for short snippets of code 
+    that are used only once
+    Syntax:
+       auto name =[Capture](Parameters) -> return_type{
+            Function body;
+        }
+
+    Capture
+        By value[=]
+        By reference[&]
+        By specific variable[x,&y]
+    Parameters
+    Return type
+    Function body
+
+Software development lifecycle: 
+1.	planning: info gathering / raw info/ good info
+2.	definining: good info
+3.	designing: flow chart, test case, class info
+4.	developing:
+5.	testing: test case , TDD (Test Driven Development)
+6.	deploying: put on server testing
+
+    Time consuming
+    Costly
+
+CI/CD ( Continuous Integration and Continuous Delivery (or Deployment)):
+    [Debox Engineer]
+
+
+Storage Classes
+1) Auto:- 
+    Scope: Local to the block in which it is defined.
+    Lifetime: gets destroyed when the bolck is exited
+2) Register:-
+    Scope: Local to the block in which it is defined.
+    Lifetime: Automatically destroyed when the block is exited.
+3) Static:-
+    Scope: For variables within afunction. Local to the function but retains its value between function calls
+    For variables within a file: File scope
+4) Extern:-
+    Scope: Global, the variable/function is visible across multiple files.
+    Lifetime: Exists for the duration of the program
+5) Mutable:-
+    Scope: Used in Classes
+    Lifetime: As per the containing object.
+    [Allows a member of an object to be modified even if the object is declared as const.]
+These storage classes help in optimizing the program's performance adnmanageability.
+
